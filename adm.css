@@ -15,7 +15,7 @@ body{
   -webkit-font-smoothing: antialiased !important;
 }
 
-header#header_adm{
+#header_adm{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -23,7 +23,6 @@ header#header_adm{
   background-color: #ffffff;
   color: #000000;
   font-weight: bold;
-  border-bottom: 1px solid #000;
 }
 
 header a {
@@ -35,36 +34,54 @@ header a:hover{
   opacity: 1;
 }
 
-div#app_adm{
+#resp{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 275px;
+  padding-top: 180px;
 }
 
-img{
-  padding-bottom: 15px;
-}
-
-.input_adm{
+.motoca{
   margin: 5px 0;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
   padding: 5px 3px;
-  width: 200px;
+  width: 250px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
 }
 
-.buttom_adm{
+#app_adm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.func{
   margin: 5px 0;
-  border-style: solid;
-  border-width: 1px;
+  padding: 5px 3px;
+  width: 250px;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+#submit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.button{
+  margin: 5px 0;
+  border: 1px solid;
   border-radius: 12px;
   padding: 5px 3px;
   width: 130px;
 }
 
-footer#footer_adm{
+#footer_adm{
 position: absolute;
 bottom: 0;
 width: 100%;
@@ -75,5 +92,5 @@ padding-bottom: 10px;
 #nav_footer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
