@@ -13,16 +13,19 @@ body,
   flex-direction: column;
   align-items: center;
   justify-content: center ;
-  background-image: linear-gradient(to bottom, #b6c0da, #14104d);
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 #header{
-  background-color:  #b6c0da;
+  background-color:  #ffffff;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .adm_icon{
@@ -41,7 +44,6 @@ img{
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
   color: #2e2c2c;
 }
 .user{
@@ -54,19 +56,23 @@ p{
 
 .input{
   margin: 5px 0;
-  padding: 5px 5px;
-  width: 30em;
+  padding: 5px 3px;
+  width: 250px;
   border: 1px solid;
   border-color: #000000;
   border-radius: 5px;
 }
 .button{
   margin: 5px 0;
-  width: fit-content;
-  height: fit-content;
-  padding: 5px 5px;
-  border-radius: 5px;
   border: 1px solid;
-  border-color: #000000;
-  font-weight: bold;
+  border-radius: 12px;
+  padding: 5px 3px;
+  width: 130px;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
 }

@@ -9,7 +9,7 @@ body{
   width: 100%;
   height: 100%;
   position: relative;
-  background-image: linear-gradient(to bottom, #b6c0da, #14104d);
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -20,8 +20,8 @@ header#header_adm{
   align-items: center;
   justify-content: space-around;
   padding: 5px 0;
-  background-color: #5a5151;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
   font-weight: bold;
   border-bottom: 1px solid #000;
 }
