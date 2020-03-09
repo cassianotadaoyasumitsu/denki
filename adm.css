@@ -89,7 +89,6 @@ padding-bottom: 15px;
 }
 
 #nav_footer{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+ display: flex;
+ justify-content: space-around;
 }
