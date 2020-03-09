@@ -82,11 +82,10 @@ header a:hover{
 }
 
 #footer_adm{
-position: absolute;
-bottom: 0;
 width: 100%;
 text-align: center;
-padding-bottom: 10px;
+padding-top: 100px;
+padding-bottom: 15px;
 }
 
 #nav_footer{
