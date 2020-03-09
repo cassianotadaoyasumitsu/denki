@@ -82,7 +82,7 @@ header a:hover{
 }
 
 #footer_adm{
-width: 100%;
+width: auto;
 text-align: center;
 padding-top: 100px;
 padding-bottom: 15px;
